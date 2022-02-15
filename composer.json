@@ -1,0 +1,19 @@
+{
+    "name": "muhammadrosyidi/belajar-php-composer-hello",
+    "description": "Library Composer Hello",
+    "type": "library",
+    "authors": [
+        {
+            "name": "mrosyidi",
+            "email": "rosyidiyuekunchen@gmail.com"
+        }
+    ],
+    "autoload": {
+      "psr-4": {
+        "MuhammadRosyidi\\Belajar\\": "src/"
+      }
+    },
+    "require": {
+      "php": ">=8.0"
+    }
+}
