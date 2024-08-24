@@ -8,5 +8,12 @@
             "email": "rosyidiyuekunchen@gmail.com"
         }
     ],
-    "require": {}
+    "require": {
+      "php": ">=8.0"
+    },
+    "autoload": {
+      "psr-4": {
+        "OsyKunchen\\Belajar\\": "src/"
+      }
+    }
 }
